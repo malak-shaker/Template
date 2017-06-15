@@ -65,7 +65,7 @@ h1{
 	background-color: #F4F6F7;
 	padding: 50px 80px;
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-around;
 }
 .news_card{
 	box-shadow: 0px 0px 7px 4px #E5E7E9
@@ -73,6 +73,15 @@ h1{
 .tablecard{
 	margin-top: 50px;
 }
+
+.rightmenu{
+	width:60%;
+}
+
+.rightmenu__title{
+	margin-bottom: 30px;
+}
+
 .rightmenu__slider{
 	margin: 10px 0px;
 	width: 751px;
@@ -124,9 +133,14 @@ h1{
 }
 
 .leftmenu{
-	width:250px;
+	width:25%;
 	margin-left: 50px;
 }
+.leftmenu__title{
+	margin-bottom: 30px;
+}
+
+
 .leftmenu__list{
 	list-style: none;
 	margin-left: 0px;
