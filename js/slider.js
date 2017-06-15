@@ -1,5 +1,4 @@
-var sliders = $('.slider');
-
+var sliders = $('.slider-container');
 var sliderObjects = [];
 
 for(var i = 0;i<sliders.length;i++){
@@ -44,8 +43,7 @@ for(var i = 0;i<sliders.length;i++){
 	var sliderWidthPercentage = 100*sliderObject.slides;
 	sliderObject.imageWidthPercentage = 100/(sliderObject.slides*sliderObject.dataSlides); 
 	images_container.css('width',sliderWidthPercentage+'%');
-	images_container.children('.slide').css({'width': sliderObject.imageWidthPercentage+'%'
-		, 'height': '500px'});	
+	images_container.children('.slide').css({'width': sliderObject.imageWidthPercentage+'%'});	
 	sliderObject.autoplay = (myslider.attr('data-autoplay')=='true');
 
 	sliderObjects.push(sliderObject);

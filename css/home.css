@@ -4,14 +4,7 @@ h6{
 	
 }
 .firstpage{
-	/*background-image: url("london.jpg");
-	background-repeat: no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;*/
-
-  background: linear-gradient(to left, rgba(113, 157, 241, 0.7), rgba(179, 115, 237, 0.7)), url("london.jpg");
+  background: linear-gradient(to left, rgba(113, 157, 241, 0.7), rgba(179, 115, 237, 0.7)), url("../pics/london.jpg");
   background-size: cover;
   position: relative;
 }
@@ -151,6 +144,10 @@ font-size: small;
 .slidersection{
 	background-color: #515A5A;
 }
+.slide{
+	height:500px;
+}
+
 .footerflex{
 	margin: 0px auto;
 	width:85%;
