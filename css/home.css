@@ -159,9 +159,44 @@ font-size: small;
 	position: absolute;
 	bottom: 6px;
 	width: 100%;
-	padding:0 67px;
+	padding:0 47px;
+}
+
+.slider_buttons{
+	width: 100%;
+	padding:0 30px;
 	display: flex;
 	justify-content: space-between;
+	border-top: 3px solid;
+	border-color: white;
+}
+
+
+.slide-content{
+	width:100%;
+	height: 100%;
+	background: rgba(0,0,0,0.5);
+	box-sizing: border-box;
+	padding: 10% 10%;
+}
+
+.slide-content__type{
+	color: rgb(0,222,0);
+	font-weight: bold;
+}
+
+.slide-content__type--yellow{
+	color: yellow;
+}
+
+.slide-content__title{
+	color: white;
+	margin: 10px 0;
+}
+
+.slide-content__stats{
+	color: gray;
+    font-size: 13px;
 }
 
 .dot{
