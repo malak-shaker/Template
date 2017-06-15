@@ -147,6 +147,30 @@ font-size: small;
 .slide{
 	height:500px;
 }
+.arrow{
+	color: white;
+	font-size: 38px;
+}
+.slider-container{
+	position: relative;
+}
+
+.slider_nav{
+	position: absolute;
+	bottom: 6px;
+	width: 100%;
+	padding:0 67px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.dot{
+	border-color: white;
+}
+
+.dot.active{
+	background-color: white;
+}
 
 .footerflex{
 	margin: 0px auto;

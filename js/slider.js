@@ -51,7 +51,6 @@ for(var i = 0;i<sliders.length;i++){
 
 
 $('[data-prev-slide]').click(function(){
-
 	var sliderIndex = getSliderIndex(this);
 	if(sliderObjects[sliderIndex].position!=0){
 		sliderObjects[sliderIndex].position--;
