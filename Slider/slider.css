@@ -1,0 +1,46 @@
+.myslider{
+	overflow: hidden; 
+	position: relative;
+}
+
+
+.slide{
+	display: inline-block;
+	/*box-sizing: border-box;*/
+	float:left;
+	background-repeat:no-repeat;
+	background-size: cover;
+	/*border: 0 10%;*/
+	
+}
+
+.images_container{
+	transition: transform 1s;
+}
+		
+.clr{
+	clear: both;
+}
+.dots-container {
+	position: absolute;
+	bottom: 10px;
+	margin: 0 auto;
+	width:100%;
+	text-align: center;
+}
+
+
+.dot{
+	cursor: pointer;
+	display: inline-block;
+	width:10px;
+	margin: 0 5px;
+	height: 10px;
+	border-color: black;
+	border-radius: 10px;
+	border: 1px solid;
+}
+
+.dot.active{
+	background: black;
+}
