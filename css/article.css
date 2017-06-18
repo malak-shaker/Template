@@ -1,0 +1,85 @@
+body{
+	font-family: 'Lato', sans-serif;
+}
+.secondpageheader{
+	background: white;
+}
+
+.titlemenu__element--secondpagetitle{
+	color:black;
+	padding-bottom: 20px;
+}
+.centertitle--olive{
+	color:#8C7F0F;
+}
+.centertitle--position{
+	width:90%;
+	text-align: left;
+
+}
+.David{
+	width: 80%;
+}
+
+.David--p{
+	padding-top: 25px;
+}
+.David--p--second{
+	padding-bottom: 40px;
+}
+.David__list{
+	list-style: none;
+	margin-left: 0px;
+}
+.David__list--item{
+	display: inline-block;
+	background-color: #F4F6F7;
+	border:2px solid;
+	border-radius: 25px;
+	border-color:#F4F6F7;
+	padding: 3px;
+}
+.secondpage--background{
+	background-color: white;
+}
+.David__share{
+	padding-top: 30px;
+	display: inline-block;
+}
+.commentsection{
+	padding: 20px;
+	margin: 0 auto;
+    width: 70%;
+    color: grey;
+}
+.commentsection--list{
+list-style: none;
+margin: 0px;
+}
+.commentsection--list__elem{
+border-top: 2px solid;
+border-color: grey;
+padding: 10px;
+display: flex;
+justify-content: space-between;
+}
+.commentsection--list__elem h5{
+	font-weight: bold;
+	color: black;
+}
+
+.commentsection--list__elem img{
+	height:30px;
+	border:2px solid;
+	border-radius: 25px;
+	border-color:black;
+}
+.parent{
+	background-color: #F4F6F7;
+}
+.iconsmenu_left--share{
+	display: inline-block;
+}
+.iconsmenu_left--share a{
+	margin-left: 30px;
+}

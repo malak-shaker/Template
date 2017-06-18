@@ -1,0 +1,61 @@
+body{
+	font-family: 'Lato', sans-serif;
+}
+.centertitle--arrow{
+	height:20px;
+}
+.centertitle--position{
+	position: relative;
+}
+
+.centertitle--arrow--left{
+   position: absolute;
+    left: 5%;
+    top: 50%;
+
+}
+.centertitle--arrow--right{
+	position: absolute;
+    right: 10%;
+    top: 50%;
+}
+.rightmenu--blog{
+	padding: 50px;
+	background-color: white;
+	flex:3;
+}
+.rightmenu--blog__button{
+	margin-top: 30px;
+	text-align: center;
+}
+.secondpage--blog{
+	background-color: white;
+	padding: 0px;
+}
+.leftmenu--blog{
+background-color:#F4F6F7;
+margin: 0px;
+width: 30%;
+padding: 30px;
+}
+.leftmenu__tags{
+	background-color: white;
+	margin: 30px;
+}
+.David__list--tags{
+	margin: 5px;
+}
+.David__list--item--tags{
+	margin: 5px;
+}
+.leftmenu--header{
+	color:#2FBDC7;
+	font-weight: bold;
+	font-size: 15px;
+	text-align: center;
+	padding: 20px;
+}
+.leftmenu__upper{
+	display: flex;
+	justify-content: space-around;
+}
